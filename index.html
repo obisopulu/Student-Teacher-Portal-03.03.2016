@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login &bull; SemestR</title>
+<link href="_cascade_semestr.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+td.article {
+	padding:20px;
+	text-align:center;}
+h1 {
+	margin:20px 0 10px 0;
+	text-transform:capitalize;
+	font-weight:600;}
+h2 i {
+	font-size:18px;}	
+td.article form {
+	padding:10px 0 0 0;
+	display:block;}
+td.article input {
+	width:auto;
+	display:block;}
+td.article input {
+	padding:10px 15px;
+	margin:15px auto 0 auto;	
+	color:#333;
+	font:100%/1.4 "Segoe UI", "Segoe Script";	
+	font-size:14px;
+	width:400px;
+	border:0;
+	border-bottom:solid thin #ccc;
+	border-radius:3px;}	
+td.article input[type="submit"] {
+	background-color:#16bc00;
+	color:white;	
+	text-transform:capitalize;}
+td.article input[type="reset"] {	
+	text-transform:capitalize;}
+td.article input[type="submit"]:hover {
+	background-color:#13A300;}
+td.article input[type="reset"]:hover {	
+	background-color:#d9d9d9;}
+td.article label {
+	margin:15px 0 0 0;
+	display:block;}
+td.article label a {
+	color:#00bfff;
+	text-transform:capitalize;
+	font-style:italic;}	
+td.article label a:hover {
+	color:#00bfff;}	
+td.article input[type="checkbox"] {
+	margin:3px 5px 0 0;
+	width:auto;
+	border:solid thin red;
+	display:inline;
+	float:left;}
+td.article label#errorMessage {
+	padding:10px 0 50px 0;
+	margin:0 auto;
+	width:420px;}
+</style>
+</head>
+<body>
+<table border="0" class="overflow">
+<tr class="header">
+<td>
+    <div class="overflowWrap">
+        <div class="floatLeft">    
+            <a href="#" id="logoLinks"><img src="img/logo_semestr.png" height="60" /></a>
+        </div>
+        <div class="floatRight">    
+            <ul id="headerLinks">
+                <li><a href="#">Contact Admin</a></li>
+				<li><a href="#">about us</a></li>
+                <li><a href="#">logout</a></li>
+            </ul>
+         </div>        
+    </div>        
+</td>
+</tr>
+  
+  
+<tr class="nav">
+<td>
+    <div class="overflowWrap">    
+        <div class="floatLeft">
+            <h3>Welcome to M-pEE</h3>
+        </div>
+        </div>
+</td>
+</tr>  
+</table> <!-- close overflow -->
+
+
+<table border="0" class="container">
+<tr>
+<td class="article">
+    <h1>welcome to MS(IT) Department</h1>
+    <h2>...the <i>coolest</i> place to be...</h2>      
+    <form action="" method="post" autocomplete="off">    
+        <input type="text" name="userid" placeholder="Enter Department ID Number" required />
+        <input type="password" name="psw" placeholder="Enter password" required />        
+        <label id="errorMessage">
+        	<div class="floatLeft">
+            <input type="checkbox" /> Remember me
+            </div>
+        	<div class="floatRight">                        
+            <a href="#">Can't remember?</a>
+            </div>
+        </label>
+		<input type="submit" value="log in" />
+        </form> 
+</td> <!-- close article -->
+</tr>
+
+
+<tr class="footer">
+<td colspan="3">
+    <ul id="footerLinks">
+        <li><a href="#">about us</a></li>                                               
+        <li><a href="#">contact admin</a></li>                                                        
+    </ul>
+    <span id="impressum">
+    SemestR &copy; 2016 
+    <a href="http://www.hwplabs.com/" target="_blank">HWP Labs</a>. 
+    All rights reserved.
+    </span>.    
+</td>
+</tr>
+
+</table> <!-- close container -->
+
+</body>
+</html>

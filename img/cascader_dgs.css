@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body	{padding:0;margin:0;font:100%/1.4 "Segoe UI", "Segoe Script";font-weight:lighter;}	table {border-collapse:collapse;}td {color:#333;}h1, h2, h3, h4, h5, h6 {font-weight:lighter;margin:0;}	tr.header td {padding:30px 0;}	tr.header td:nth-child(2) {width:65%;}tr.header td:nth-child(2) img {	width:100px;}tr.nav td table tr {vertical-align:top;}	tr.nav td:nth-child(2) {	border-bottom:solid #4A0000;padding:0;}tr.nav td:nth-child(2) table td {width:20%;	border:0;padding:0 1px;}tr.nav td:nth-child(2) a {padding:10px;background-color:#ecebf0;color:#333;text-align:center;text-transform:uppercase;text-decoration:none;font-size:12px;display:block;}tr.nav td:nth-child(2) a:hover {background-color:#9f9994;}tr.footer td {
+	background-color:#231f20;
+	color:#9f9994;
+	padding:10px 0;
+	font-size:12px;}
+tr.footer td #footLinks {
+	float:right;}	
+tr.footer td #footLinks a {
+	color:inherit;
+	padding:5px;
+	text-transform:capitalize;
+	text-decoration:none;}	
+tr.footer td #footLinks a:hover {
+	color:#4A0000;}
+tr.footer td #footLinks a#sel {
+	color:#4A0000;}
+tr.wall
+	{
+		height:290px;
+		background-color:#9f9994;
+		color:#FFF;
+		vertical-align:middle;
+		text-align:center
+	}
+.map
+	{
+		text-decoration:none;
+		color:#FFF;
+	}
+.map a:hover
+	{
+		background-color:#4A0000;
+	}
+.history
+	{
+		color:#4A0000;
+		padding:20px;
+		width:40%;
+		height:290px
+	}
+.pad20
+	{
+		padding:20px
+	}

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+search
+#ecebf0
+nav hover
+#e6e5ea
+primary
+4A0000
+wall
+#9f9994
+section
+#f9f9f9
+footer
+231f20
+*/
+body {
+	padding:0;
+	margin:0;
+	font:100%/1.4 "Segoe UI", "Segoe Script";}	
+table {
+	border-collapse:collapse;}
+td {
+	color:#333;}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:lighter;
+	margin:0;}	
+
+
+tr.header td {
+	padding:30px 0;}	
+tr.header td:nth-child(2) {
+	width:65%;}
+tr.header td:nth-child(2) img {
+	width:100px;}
+
+tr.nav td table tr {
+	vertical-align:top;}	
+tr.nav td:nth-child(2) {
+	border-bottom:solid #4A0000;
+	padding:0;}	
+tr.nav td:nth-child(2) table td {
+	width:20%;
+	border:0;
+	padding:0 1px;}	
+tr.nav td:nth-child(2) a {
+	padding:10px;
+	background-color:#ecebf0;
+	color:#333;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:12px;
+	display:block;}
+tr.nav td:nth-child(2) a:hover {
+	background-color:#9f9994;}
+
+
+tr.wall td {
+	background-color:#9f9994;
+	height:18em;}	
+tr.wall td h1 {
+	color:#FFF;
+	text-transform:uppercase;}	
+tr.wall td h5 {
+	color:#FFF;}	
+#button	{
+	background-color:#4A0000;
+	color:#FFF;
+	padding:8px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:10px;
+	border:0;}
+#button:hover {
+	background-color:#333;}
+tr.wall td a {
+	text-decoration:inherit;}
+tr.wall td .pagi a {
+	background-color:#333;	
+	height:12px;
+	width:12px;
+	margin:2px;
+	border-radius:75px;
+	float:right;}
+tr.wall td .pagi a:hover {
+	background-color:#4A0000;}
+tr.wall td .pagi a#sel {
+	background-color:#4A0000;}
+tr.wall2 td a {
+	text-decoration:inherit;}
+tr.wall2 td .pagi a {
+	background-color:#333;	
+	height:12px;
+	width:12px;
+	margin:2px;
+	border-radius:75px;
+	float:right;}
+tr.wall2 td .pagi a:hover {
+	background-color:#4A0000;}
+tr.wall2 td .pagi a#sel {
+	background-color:#4A0000;}
+
+
+tr.article tr {
+	vertical-align:top;}
+tr.article td {
+	padding:30px 0;}
+tr.article td table td {
+	padding:0;}	
+tr.article td table td:first-child {
+	padding-right:10px;}		
+tr.article td #art_tit {
+	color:#4A0000;
+	font-size:36px;
+	font-weight:normal;
+	text-transform:capitalize;}
+tr.article td #art_sub {
+	font-size:24px;
+	font-weight:lighter;	
+	text-transform:uppercase;
+	padding-bottom:10px;}	
+tr.article td h5 {
+	color:#CCC;}
+tr.article td h2, tr.article td h3 {
+	text-transform:uppercase;}
+tr.article td a {
+	float:right;
+	text-decoration:none;
+	font-size:25px;
+	font-weight:bold;}	
+tr.article td a:hover {
+	color:#4A0000;}
+tr.article td a#sel {
+	color:#4A0000;}
+tr.article td table td:nth-child(2) h2 {
+	display:inline-block;}
+h3#name {
+	color:#4A0000;}
+tr.article td img {
+	width:60px;
+	padding-right:10px;
+	float:left;}
+
+
+tr.sec1 tr {
+	vertical-align:top;}
+tr.sec1 td {
+	padding:30px 0;
+	background-color:#f9f9f9;}
+tr.sec1 td table td {
+	padding:0;}	
+tr.sec1 td table td:first-child {
+	width:70%;
+	padding:0 10px 30px 0;}	
+tr.sec1 td img {
+	padding:0 20px 10px 0;
+	width:50%;
+	float:left;}
+tr.sec1 td h2 {
+	text-transform:uppercase;}
+tr.sec1 td h3 {
+	text-transform:uppercase;}
+tr.sec1 td h4 {
+	text-transform:uppercase;
+	color:#4A0000;}
+tr.sec1 td h5 {
+	color:#CCC;}
+.badge {
+	background-color:#4A0000;
+	padding:0 10px 6px 10px;
+	margin:0 15px 20px 0;
+	display:inline-block;
+	float:left;}
+div.badge h3 {
+	color:#FFF;}
+tr.sec1 td .badge h5 {
+	text-transform:uppercase;
+	color:#333;}
+
+
+tr.sec2 tr {
+	vertical-align:top;}
+tr.sec2 td {
+	padding:30px 0;}
+tr.sec2 td table td {
+	padding:0;}	
+tr.sec2 td table td:first-child {
+	width:35%;
+	padding:0 10px 30px 0;}
+tr.sec2 td table td:nth-child(2) {
+	width:35%;}	
+tr.sec2 td table td h2, tr.sec2 td table td h3, tr.sec2 td table td h4 {
+	text-transform:uppercase;}	
+tr.sec2 td table td h3 {
+	color:#4A0000;}
+tr.sec2 td table td h5 {
+	color:#CCC;}
+tr.sec2 td table td ul {
+	padding:0 20px;
+	margin:0;
+	list-style-type:square;}
+tr.sec2 td table td ul li {
+	padding:0 0 4px 10px;
+	text-transform:uppercase;
+	font-size:13px;}
+
+
+tr.footer td {
+	background-color:#231f20;
+	color:#9f9994;
+	padding:10px 0;
+	font-size:12px;}
+tr.footer td #footLinks {
+	float:right;}	
+tr.footer td #footLinks a {
+	color:inherit;
+	padding:5px;
+	text-transform:capitalize;
+	text-decoration:none;}	
+tr.footer td #footLinks a:hover {
+	color:#4A0000;}
+tr.footer td #footLinks a#sel {
+	color:#4A0000;}
+
+
+	
